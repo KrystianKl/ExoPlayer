@@ -18,12 +18,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.radioButton).setOnClickListener(v -> {
-            if(checkInternet(getApplicationContext()))
-                startActivity(new Intent(MainActivity.this, RadioPlayerActivity.class));
-            else
-                Toast.makeText(getApplicationContext(), getString(R.string.app_nointernet), Toast.LENGTH_LONG).show();
-        });
+        //findViewById(R.id.radioButton).setOnClickListener(v -> {
+        //    if(checkInternet(getApplicationContext()))
+        //        startActivity(new Intent(MainActivity.this, RadioPlayerActivity.class));
+        //    else
+        //        Toast.makeText(getApplicationContext(), getString(R.string.app_nointernet), Toast.LENGTH_LONG).show();
+        //});
 
         findViewById(R.id.customVideoButton).setOnClickListener(v -> {
             if(checkInternet(getApplicationContext()))
