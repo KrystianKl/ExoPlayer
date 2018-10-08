@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.krystiankl.a14_exoplayer.media.RadioPlayerActivity;
+//import com.krystiankl.a14_exoplayer.media.RadioPlayerActivity;
 import com.krystiankl.a14_exoplayer.media.VideoPlayerActivity;
 
 public class MainActivity extends AppCompatActivity {
